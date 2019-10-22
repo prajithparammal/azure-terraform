@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "resource_gp" {
   location = "eastus"
-  name = "terraform-RP"
+  name = "terraform"
 
   tags = {
     Owner = "Prajith Parammal"
